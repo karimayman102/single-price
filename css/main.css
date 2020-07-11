@@ -30,6 +30,7 @@ body{
     padding:50px;
 }
 main{
+    width:600px;
     display:grid;
     grid-template-columns:1fr 1fr;
     grid-auto-rows:minmax(90px,auto);
@@ -125,7 +126,7 @@ header p{
     grid-row:2/3;
     background-color:hsla(179, 62%, 43%,0.6);
 }
-@media(max-width:767px){
+@media(max-width:1024px){
     .left{
         grid-column:1/3;
         grid-row:2/3;
